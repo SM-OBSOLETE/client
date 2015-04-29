@@ -40,7 +40,8 @@ hadoop jar ./parquet-tools-<VERSION>.jar cat sample_data/ex_out.parquet > sample
 ```
 
 #New feature to be added soon
-Choice of compression for the Parquet file.
+* Choice of compression for the Parquet file.
+* Update user for index of record being written (status update for large files).
 
 
 
