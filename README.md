@@ -1,7 +1,7 @@
 # client
 The client part of the Spatial Metabolomics project
 
-This contains a converter for file formats; from imzML (http://imzml.org/download/imzml/specifications_imzML1.1.0_RC1.pdf)
+Contains a converter for file formats; converts from imzML (http://imzml.org/download/imzml/specifications_imzML1.1.0_RC1.pdf)
 file format to Parquet (http://parquet.apache.org) file format.
 
 ## Installation requirements
@@ -20,9 +20,8 @@ For example:
 hadoop jar ipconverter-1.0.0-standalone.jar sample_data/Example_Processed sample_data/ex_out
 ```
 
-Make sure that when you specipy input-filename Example_Processed, then, Example_Processed.ibd, and Example_Processed.imzML 
-should already exist in the location. The output file with a name ex_out.parquet will be created in the folder sample_data. 
-This should not be present at the location, only then a new file will be created.
+Make sure that when you specipy input-filename Example_Processed, then, Example_Processed.ibd, and Example_Processed.imzML  already exist in the location. The output file with a name ex_out.parquet will be created in the folder sample_data. 
+The output file should not be present at the location, only then a new file will be created.
 
 #View output
 You can view the contents of the Parquet file using the Parquet tools, as:
