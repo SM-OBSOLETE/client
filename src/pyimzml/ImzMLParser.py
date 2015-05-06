@@ -14,6 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+'''
+Note: The client code is using the latest stable release of Jython - 2.5.3, which uses an 
+older version of Python (< 2.7). This is a modified verison of the pyImzML parser (https://github.com/pyIMS/pyimzML), 
+where, features supported by newer versions of Python have been dealt with. When Jython 2.7 beta 4 release 
+which is compatible with 2.7 version of CPython becomes a stable release, we will not longer need a modified 
+version of pyImzML parser.
+'''
+
 import bisect
 from xml.etree2 import ElementTree
 import struct
